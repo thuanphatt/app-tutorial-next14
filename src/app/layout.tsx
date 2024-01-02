@@ -15,9 +15,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<Navbar />
-				{children}
-				<Footer />
+				<div className="w-main m-auto min-h-screen flex flex-col justify-between px-[50px]">
+					<Navbar />
+					{children}
+					<Footer />
+				</div>
 			</body>
 		</html>
 	);
