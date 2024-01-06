@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<div className="w-main m-auto min-h-screen flex flex-col justify-between px-[50px]">
+				<div className="w-full md:w-main m-auto min-h-screen flex flex-col justify-between px-[50px]">
 					<Navbar />
 					{children}
 					<Footer />
