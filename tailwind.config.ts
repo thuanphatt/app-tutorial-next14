@@ -22,7 +22,7 @@ const config: Config = {
 				sub: "#2d2b42",
 			},
 			width: {
-				main: "1536px",
+				main: "1510px",
 			},
 		},
 	},
